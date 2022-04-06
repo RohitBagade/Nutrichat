@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="chat-box">
+
+            <div class="topContainer">
+                <div class="brand">
+                    <h2>NUTRICHAT</h2>
+                    <p>Online</p>
+                </div>
+            </div>
+
+            <div class="chatContainer">
+
+                <!-- <div class="form">
+                    <H1>Put your Details</H1>
+                    <input class="user" type="text" placeholder="Enter UserName">
+                    <input class="pass" type="password" placeholder="Enter Password">
+                    <button onclick="submit()">Submit</button>
+                </div> -->
+
+                <div class="botChat">Hii, Myself NUTRICHAT The Bot. What is your name?
+                    <!-- <button onclick="addQuant()" id="adjQt"> Adjust </button> -->
+                </div>
+                
+                <!-- <div class="clientChat"></div> -->
+                
+            </div>
+
+            <div class="bottomContainer">
+                <input class="msgBox" placeholder="Message Here...">
+                <button onclick="assign()" class="send"></button>
+            </div>
+
+        </div>
+            
+    </div>
+
+    <div class="tableContainer">
+        <div class="table-box">
+            <table class="content-table">
+                <thead>
+                    <tr>
+                        <th colspan="2">BreakFast</th>
+                        <th colspan="2" class="bt">2522</th>
+                        <th>=</th>
+                        <th colspan="3" class="bs">0</th>
+                    </tr>
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Products</th>
+                        <th>Protein</th>
+                        <th>Carbs</th>
+                        <th>Fat</th>
+                        <th>Unit</th>
+                        <th colspan="3">Quantity</th>
+                    </tr>
+                    <tr>
+                        <td class="b1">egg</td>
+                        <td class="bp1"></td>
+                        <td class="bc1"></td>
+                        <td class="bf1"></td>
+                        <td class="bu1"></td>
+                        <td><button class="bm1 btn"><b>-</b></button></td>
+                        <td class="bq1"></td>
+                        <td><button class="ba1 btn"><b>+</b></button></td>
+                    </tr>
+                    <tr>
+                        <td class="b2">bread</td>
+                        <td class="bp2">20</td>
+                        <td class="bc2">30</td>
+                        <td class="bf2">40</td>
+                        <td class="bu2">piece</td>
+                        <td><button class="bm2 btn"><b>-</b></button></td>
+                        <td class="bq2">1</td>
+                        <td><button class="ba2 btn"><b>+</b></button></td>
+                    </tr>
+                    <tr>
+                        <td class="b3">salad</td>
+                        <td class="bp3">20</td>
+                        <td class="bc3">30</td>
+                        <td class="bf3">40</td>
+                        <td class="bu3">piece</td>
+                        <td><button class="bm3 btn"><b>-</b></button></td>
+                        <td class="bq3">1</td>
+                        <td><button class="ba3 btn"><b>+</b></button></td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <table class="content-table">
+                <thead>
+                    <tr>
+                        <th colspan="2">Lunch</th>
+                        <th colspan="2" class="lt">2522</th>
+                        <th>=</th>
+                        <th colspan="3" class="ls">0</th>
+                    </tr>
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Products</th>
+                        <th>Protein</th>
+                        <th>Carbs</th>
+                        <th>Fat</th>
+                        <th>Unit</th>
+                        <th colspan="3">Quantity</th>
+                    </tr>
+                    <tr>
+                        <td class="l1">egg</td>
+                        <td class="lp1">20</td>
+                        <td class="lc1">30</td>
+                        <td class="lf1">40</td>
+                        <td class="lu1">piece</td>
+                        <td><button class="lm1 btn"><b>-</b></button></td>
+                        <td class="lq1">1</td>
+                        <td><button class="la1 btn"><b>+</b></button></td>
+                    </tr>
+                    <tr>
+                        <td class="l2">bread</td>
+                        <td class="lp2">20</td>
+                        <td class="lc2">30</td>
+                        <td class="lf2">40</td>
+                        <td class="lu2">piece</td>
+                        <td><button class="lm2 btn"><b>-</b></button></td>
+                        <td class="lq2">1</td>
+                        <td><button class="la2 btn"><b>+</b></button></td>
+                    </tr>
+                    <tr>
+                        <td class="l3">salad</td>
+                        <td class="lp3">20</td>
+                        <td class="lc3">30</td>
+                        <td class="lf3">40</td>
+                        <td class="lu3">piece</td>
+                        <td><button class="lm3 btn"><b>-</b></button></td>
+                        <td class="lq3">1</td>
+                        <td><button class="la3 btn"><b>+</b></button></td>
+                    </tr>
+                    <tr>
+                        <td class="l4">chapati</td>
+                        <td class="lp4">20</td>
+                        <td class="lc4">30</td>
+                        <td class="lf4">40</td>
+                        <td class="lu4">piece</td>
+                        <td><button class="lm4 btn"><b>-</b></button></td>
+                        <td class="lq4">1</td>
+                        <td><button class="la4 btn"><b>+</b></button></td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <table class="content-table">
+                <thead>
+                    <tr>
+                        <th colspan="2">Dinner</th>
+                        <th colspan="2" class="dt">2522</th>
+                        <th>=</th>
+                        <th colspan="3" class="ds">0</th>
+                    </tr>
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Products</th>
+                        <th>Protein</th>
+                        <th>Carbs</th>
+                        <th>Fat</th>
+                        <th>Unit</th>
+                        <th colspan="3">Quantity</th>
+                    </tr>
+                    <tr>
+                        <td class="d1">egg</td>
+                        <td class="dp1">20</td>
+                        <td class="dc1">30</td>
+                        <td class="df1">40</td>
+                        <td class="du1">piece</td>
+                        <td><button class="dm1 btn"><b>-</b></button></td>
+                        <td class="dq1">1</td>
+                        <td><button class="da1 btn"><b>+</b></button></td>
+                    </tr>
+                    <tr>
+                        <td class="d2">bread</td>
+                        <td class="dp2">20</td>
+                        <td class="dc2">30</td>
+                        <td class="df2">40</td>
+                        <td class="du2">piece</td>
+                        <td><button class="dm2 btn"><b>-</b></button></td>
+                        <td class="dq2">1</td>
+                        <td><button class="da2 btn"><b>+</b></button></td>
+                    </tr>
+                    <tr>
+                        <td class="d3">salad</td>
+                        <td class="dp3">20</td>
+                        <td class="dc3">30</td>
+                        <td class="df3">40</td>
+                        <td class="du3">piece</td>
+                        <td><button class="dm3 btn"><b>-</b></button></td>
+                        <td class="dq3">1</td>
+                        <td><button class="da3 btn"><b>+</b></button></td>
+                    </tr>
+                    <tr>
+                        <td class="d4">chapati</td>
+                        <td class="dp4">20</td>
+                        <td class="dc4">30</td>
+                        <td class="df4">40</td>
+                        <td class="du4">piece</td>
+                        <td><button class="dm4 btn"><b>-</b></button></td>
+                        <td class="dq4">1</td>
+                        <td><button class="da4 btn"><b>+</b></button></td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <table class="content-table">
+                <thead>
+                    <tr>
+                        <th colspan="2">Before Workout</th>
+                        <th colspan="2" class="bwt">2522</th>
+                        <th>=</th>
+                        <th colspan="3" class="bws">0</th>
+                    </tr>
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Products</th>
+                        <th>Protein</th>
+                        <th>Carbs</th>
+                        <th>Fat</th>
+                        <th>Unit</th>
+                        <th colspan="3">Quantity</th>
+                    </tr>
+                    <tr>
+                        <td class="bw1">egg</td>
+                        <td class="bwp1">20</td>
+                        <td class="bwc1">30</td>
+                        <td class="bwf1">40</td>
+                        <td class="bwu1">piece</td>
+                        <td><button class="bwm1 btn"><b>-</b></button></td>
+                        <td class="bwq1">1</td>
+                        <td><button class="bwa1 btn"><b>+</b></button></td>
+                    </tr>
+                    <tr>
+                        <td class="bw2">bread</td>
+                        <td class="bwp2">20</td>
+                        <td class="bwc2">30</td>
+                        <td class="bwf2">40</td>
+                        <td class="bwu2">piece</td>
+                        <td><button class="bwm2 btn"><b>-</b></button></td>
+                        <td class="bwq2">1</td>
+                        <td><button class="bwa2 btn"><b>+</b></button></td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <table class="content-table">
+                <thead>
+                    <tr>
+                        <th colspan="2">After Workout</th>
+                        <th colspan="2" class="awt">2522</th>
+                        <th>=</th>
+                        <th colspan="3" class="aws">0</th>
+                    </tr>
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Products</th>
+                        <th>Protein</th>
+                        <th>Carbs</th>
+                        <th>Fat</th>
+                        <th>Unit</th>
+                        <th colspan="3">Quantity</th>
+                    </tr>
+                    <tr>
+                        <td class="aw1">egg</td>
+                        <td class="awp1">20</td>
+                        <td class="awc1">30</td>
+                        <td class="awf1">40</td>
+                        <td class="awu1">piece</td>
+                        <td><button class="awm1 btn"><b>-</b></button></td>
+                        <td class="awq1">1</td>
+                        <td><button class="awa1 btn"><b>+</b></button></td>
+                    </tr>
+                    <tr>
+                        <td class="aw2">bread</td>
+                        <td class="awp2">20</td>
+                        <td class="awc2">30</td>
+                        <td class="awf2">40</td>
+                        <td class="awu2">piece</td>
+                        <td><button class="awm2 btn"><b>-</b></button></td>
+                        <td class="awq2">1</td>
+                        <td><button class="awa2 btn"><b>+</b></button></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            
+        </div>
+        
+        <button onclick="addQuant()" id="done">Done</button>
+
+    </div>
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="chat.js"></script>
+
+</html>
